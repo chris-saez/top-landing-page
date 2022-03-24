@@ -98,7 +98,7 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 80px 200px;
+    padding: 80px 300px;
 }
 
 .info-header {
@@ -118,7 +118,7 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 250px;
+    
 }
 
 .panel-image-container {
@@ -151,7 +151,7 @@ h1 {
     flex-direction: column;
     align-items: center;
     background-color: #E5E7EB;
-    padding: 80px 200px;
+    padding: 80px 300px;
     font-size: 36px;
 }
 
@@ -166,4 +166,54 @@ h1 {
     margin: 0px;
     padding: 0px;
     align-self: flex-end;
+    font-size: 32px;
+}
+
+/* Call to action Section */
+
+.call-to-action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 80px 200px;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 8px;
+    padding: 40px 0px;
+}
+
+.cta-text {
+    margin-left: 100px;
+    line-height: 1.6;
+}
+
+.call-to-action button {
+    margin-right: 100px;
+    font-weight: 600;
+    font-size: 12px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    padding: 8px 24px;
+    border-radius: 4px;
+}
+
+.cta-text h4,
+.cta-text p {
+    margin: 0px;
+    padding: 0px;;
+}
+
+.cta-text p {
+    font-weight: lighter;
+}
+
+/* Footer */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    color: #e5e7e5;
+    padding: 16px 0px;
 }
