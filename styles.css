@@ -151,4 +151,19 @@ h1 {
     flex-direction: column;
     align-items: center;
     background-color: #E5E7EB;
+    padding: 80px 200px;
+    font-size: 36px;
+}
+
+.quote {
+    font-style: italic;
+    font-weight: lighter;
+    margin: 0px;
+    padding: 0px;
+}
+
+.author {
+    margin: 0px;
+    padding: 0px;
+    align-self: flex-end;
 }
